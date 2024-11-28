@@ -1,0 +1,66 @@
+/* Define a classic color palette for dark mode */
+:root {
+  --primary-color: #cccccc;
+  --secondary-color: #999999;
+  --tertiary-color: #666666;
+  --quaternary-color: #333333;
+  --quinary-color: #ffffff;
+}
+
+/* Set the default font and size */
+body {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--quinary-color);
+  text-align: center;
+}
+
+/* Use a serif font for headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
+
+/* Set the background color to dark grey */
+body {
+  background-color: var(--quaternary-color);
+}
+
+/* Use a light grey color for links */
+a {
+  color: var(--primary-color);
+}
+
+/* Use a medium grey color for hover effects */
+a:hover {
+  color: var(--secondary-color);
+}
+
+/* Style the headings */
+h1 {
+  font-size: 32px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+/* Style the links as block elements */
+a {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 16px;
+  font-size: 20px;
+  border: 1px solid var(--tertiary-color);
+  padding: 10px;
+}
+
+/* Organize links under the "Choices" heading */
+h2 + a {
+  margin-top: 10px;
+}
